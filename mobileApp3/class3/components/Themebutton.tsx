@@ -6,9 +6,9 @@ import { useThemeColor } from '@/hooks/useThemeColor';
 import { ThemedText } from './ThemedText';
 
 export type ThemedbuttonProps = TouchableOpacityProps & {
-    bgColor?: string ;
+    bgColor?: string;
     txt?: string;
-    txtColor?: string 
+    txtColor?: string
 
 };
 
@@ -35,9 +35,9 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
 
-marginVertical : 10,
-marginHorizontal :10,
-borderRadius: 9
+        marginVertical: 10,
+        // marginHorizontal: 10,
+        borderRadius: 9
 
     }
 });
